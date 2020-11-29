@@ -650,6 +650,7 @@ class Scha(webdriver.Chrome):
     #在capterra上搜索得到vendor list：
     def getvdcap(self,capsiteli,tsl=0):
         '''
+        get vendors list from capterra.com;
         capsiteli is the list of product links from capterra.
         '''
         import time

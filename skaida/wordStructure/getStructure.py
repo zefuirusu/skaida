@@ -147,7 +147,5 @@ print(r'图表数目：',len(t1))
 t3=readstrli(t1)
 t3['original']=t1
 #print('t3 head-3 SCAN:',t3.head(3),r"t3's shape:",t3.shape)
-
 t3.to_excel(outdir_fake,sheet_name=r'Catalogue')
-
 ###
